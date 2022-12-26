@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		CAEE0EB82959D2BE002273D3 /* HeloMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */; };
 		CAEE0EBA2959D2BE002273D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0EB92959D2BE002273D3 /* ContentView.swift */; };
-		CAEE0EBC2959D2BF002273D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEE0EBB2959D2BF002273D3 /* Assets.xcassets */; };
 		CAEE0EBF2959D2BF002273D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEE0EBE2959D2BF002273D3 /* Preview Assets.xcassets */; };
+		CAEE0EC62959DC67002273D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEE0EC52959DC67002273D3 /* Assets.xcassets */; };
+		CAEE0ECB2959DDB7002273D3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0ECA2959DDB7002273D3 /* Location.swift */; };
+		CAEE0ECE2959E04C002273D3 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0ECD2959E04C002273D3 /* LocationsDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAEE0EB42959D2BE002273D3 /* HeloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeloMapApp.swift; sourceTree = "<group>"; };
 		CAEE0EB92959D2BE002273D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CAEE0EBB2959D2BF002273D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAEE0EBE2959D2BF002273D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAEE0EC52959DC67002273D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEE0ECA2959DDB7002273D3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CAEE0ECD2959E04C002273D3 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,13 @@
 		CAEE0EB62959D2BE002273D3 /* HeloMap */ = {
 			isa = PBXGroup;
 			children = (
+				CAEE0ECC2959DF8B002273D3 /* DataServices */,
+				CAEE0EC92959DD73002273D3 /* ViewModels */,
+				CAEE0EC82959DD64002273D3 /* Models */,
+				CAEE0EC72959DD58002273D3 /* Views */,
 				CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */,
 				CAEE0EB92959D2BE002273D3 /* ContentView.swift */,
-				CAEE0EBB2959D2BF002273D3 /* Assets.xcassets */,
+				CAEE0EC52959DC67002273D3 /* Assets.xcassets */,
 				CAEE0EBD2959D2BF002273D3 /* Preview Content */,
 			);
 			path = HeloMap;
@@ -65,6 +73,36 @@
 				CAEE0EBE2959D2BF002273D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAEE0EC72959DD58002273D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAEE0EC82959DD64002273D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE0ECA2959DDB7002273D3 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAEE0EC92959DD73002273D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CAEE0ECC2959DF8B002273D3 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE0ECD2959E04C002273D3 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEE0EC62959DC67002273D3 /* Assets.xcassets in Resources */,
 				CAEE0EBF2959D2BF002273D3 /* Preview Assets.xcassets in Resources */,
-				CAEE0EBC2959D2BF002273D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEE0ECE2959E04C002273D3 /* LocationsDataService.swift in Sources */,
 				CAEE0EBA2959D2BE002273D3 /* ContentView.swift in Sources */,
+				CAEE0ECB2959DDB7002273D3 /* Location.swift in Sources */,
 				CAEE0EB82959D2BE002273D3 /* HeloMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
