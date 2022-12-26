@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct HeloMapApp: App {
+    
+    @StateObject private var vm = LocationsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
+                .environmentObject(vm)
+            
         }
     }
 }
