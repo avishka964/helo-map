@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA76BB88295B60F400FD02C3 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76BB87295B60F400FD02C3 /* LocationListView.swift */; };
 		CAEE0EB82959D2BE002273D3 /* HeloMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */; };
 		CAEE0EBA2959D2BE002273D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0EB92959D2BE002273D3 /* ContentView.swift */; };
 		CAEE0EBF2959D2BF002273D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEE0EBE2959D2BF002273D3 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA76BB87295B60F400FD02C3 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		CAEE0EB42959D2BE002273D3 /* HeloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeloMapApp.swift; sourceTree = "<group>"; };
 		CAEE0EB92959D2BE002273D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				CAEE0ECF2959E24A002273D3 /* LocationView.swift */,
+				CA76BB87295B60F400FD02C3 /* LocationListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				CAEE0ED22959E61B002273D3 /* LocationViewModel.swift in Sources */,
 				CAEE0EBA2959D2BE002273D3 /* ContentView.swift in Sources */,
 				CAEE0ED02959E24A002273D3 /* LocationView.swift in Sources */,
+				CA76BB88295B60F400FD02C3 /* LocationListView.swift in Sources */,
 				CAEE0ECB2959DDB7002273D3 /* Location.swift in Sources */,
 				CAEE0EB82959D2BE002273D3 /* HeloMapApp.swift in Sources */,
 			);
