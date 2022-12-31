@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4D23C72960668500E8FB18 /* LocationPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D23C62960668500E8FB18 /* LocationPinView.swift */; };
 		CA76BB88295B60F400FD02C3 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76BB87295B60F400FD02C3 /* LocationListView.swift */; };
 		CA76BB8A295B71E400FD02C3 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76BB89295B71E400FD02C3 /* LocationPreviewView.swift */; };
 		CAEE0EB82959D2BE002273D3 /* HeloMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE0EB72959D2BE002273D3 /* HeloMapApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA4D23C62960668500E8FB18 /* LocationPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPinView.swift; sourceTree = "<group>"; };
 		CA76BB87295B60F400FD02C3 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		CA76BB89295B71E400FD02C3 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		CAEE0EB42959D2BE002273D3 /* HeloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 				CAEE0ECF2959E24A002273D3 /* LocationView.swift */,
 				CA76BB87295B60F400FD02C3 /* LocationListView.swift */,
 				CA76BB89295B71E400FD02C3 /* LocationPreviewView.swift */,
+				CA4D23C62960668500E8FB18 /* LocationPinView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				CAEE0ED22959E61B002273D3 /* LocationViewModel.swift in Sources */,
 				CA76BB8A295B71E400FD02C3 /* LocationPreviewView.swift in Sources */,
 				CAEE0EBA2959D2BE002273D3 /* ContentView.swift in Sources */,
+				CA4D23C72960668500E8FB18 /* LocationPinView.swift in Sources */,
 				CAEE0ED02959E24A002273D3 /* LocationView.swift in Sources */,
 				CA76BB88295B60F400FD02C3 /* LocationListView.swift in Sources */,
 				CAEE0ECB2959DDB7002273D3 /* Location.swift in Sources */,
